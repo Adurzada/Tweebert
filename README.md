@@ -1,33 +1,33 @@
 # Twibert
 Twitter Financial Sentiments Calculator with Front End as a Website 
 
-ABOUT ---
-SERVICES
-Cryptocurrency
+ABOUT ---.
+SERVICES.
+Cryptocurrency.
 Since the public interested in Cryptocurrencies differs, subtly, from that of other financial fields, we use sophisticated algorithms for spam detection and metrics acquiring.
-Company stocks
+Company stocks.
 By tracking the opinions and attitudes towards the company's performance, we can see the public's cumulative belief in the rise or fall of this company.
-THE WORKFLOW
-QUERY
-The Query that you have submitted will be placed in Queue. Once the time comes, it will be looked up in Twitter 
-ANALYSIS
-Out of the Tweets on this Query, we will select the most popular, filter the spam, analyze the required metrics
-REPORT
-Once analyzed, we will transfer metrics into a summary, and ship it to you via Email
+THE WORKFLOW.
+QUERY.
+The Query that you have submitted will be placed in Queue. Once the time comes, it will be looked up in Twitter.
+ANALYSIS.
+Out of the Tweets on this Query, we will select the most popular, filter the spam, analyze the required metrics.
+REPORT.
+Once analyzed, we will transfer metrics into a summary, and ship it to you via Email.
 
 
 This is a free community project, with the desire to make the analysis of the public's views very accessible for anyone, independent of code or algorithms knowledge.
 Our purpose is to change the Code from the Barrier into the Bridge for people from different areas of live.
 
 
-USAGE ---
+USAGE ---.
 
 
 ONLINE FORM SUBMITTION
 Once you have submitted the form online, I will receive it immediately, and manually send you the report.
 This may take some time, but that is the best technology i can use for free.
 
-LOCAL START
+LOCAL START.
 To make it work on localhost:
 1. download all files, place in a folder.
 2. Index.html, Contact.html - are main files of the website (press on Index.html or open in any browser to see the website)
