@@ -7,11 +7,14 @@ const res = document.getElementById('results-1')
 
 
 const sendform = (em, mes) => {
-  var val = em + '->' + mes;
+  let myForm = document.getElementById("myform1");
+  let formData = new FormData(myForm);
+  var val = '\n' + em + ' -> ' + mes;
+  
   fetch("/", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(val).toString(),
+    body: new URLSearchParams(formData).toString(),
   })
     .then(() => alert("Form successfully submitted: " + val))
     .catch((error) => alert(error));
