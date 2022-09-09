@@ -4,6 +4,24 @@ const button = document.getElementById('submitbutton');
 const email = document.getElementById('email-2');
 const mess = document.getElementById('message-2');
 const res = document.getElementById('results-1')
+
+
+const sendform = (val) => {
+  alert("hi");
+
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(val).toString(),
+  })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+};
+
+
+
+
+
 button.onclick = function () {
   event.preventDefault();
   var em = email.value;
@@ -12,6 +30,7 @@ button.onclick = function () {
   console.log(val)
 
   // Get the reciever endpoint from Python using fetch:
+
   fetch("http://127.0.0.1:5000/receiver",
     {
       method: 'POST',
@@ -34,6 +53,6 @@ button.onclick = function () {
       console.log(jsonResponse)
       res.innerHTML = (jsonResponse)
     }
-    ).catch((err) => console.error(err));
+    ).catch((err) => sendform(val));
 
 }
