@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Orator</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="untitled.css">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#"
+                style="font-family: Cabin, sans-serif;">Tweepto</a><button data-bs-toggle="collapse"
+                class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i
+                    class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item nav-link"><a class="nav-link" href="index.html">home</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link active" href="contact.html">query</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="text-center content-section" id="about"
+        style="margin: 10;padding-bottom: 150px;padding-top: 150px;height: 800px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-8 mx-auto"
+                    style="padding-top: 12px;border-width: 3px;border-style: none;border-top-style: none;border-bottom-style: none;height: 750px;">
+                    <h1 style="text-align:center">The Query</h1>
+                    <p
+                        style="margin-bottom: 0px;padding-bottom: 0px;border-style: none;border-right-width: 1px;border-right-style: none;border-bottom-width: 1px;border-bottom-style: none;border-left-width: 1px;border-left-style: none;">
+                        The Query can be anything you would input in the search prompt in Twitter. It can be [Bitcoin],
+                        or [#BTC]<br>*[] indicate the query. You do NOT need to include them.<br>Basic
+                        Operators:<br>[Apple inc.] -&gt; anything containing either Apple, inc. or both<br>['Apple
+                        inc.'] -&gt; anything containing Apple inc.<br>[Apple OR APPL OR #APPL] -&gt; anything
+                        containing one of these.<br>[Bitcoin -filter:retweets] -&gt; filter retweets out<br><br></p>
+                    <div>
+                        <form method="post"
+                            style="padding: 0px;padding-right: 70px;padding-left: 70px;margin-top: 0px;padding-top: 20px;"
+                            netlify>
+                            <h2 class="text-center mb-4" style="margin-top: 70px;">SENd</h2>
+                            <div class="mb-3"></div>
+                            <div class="mb-3"><input class="form-control" type="email" id="email-2" name="email"
+                                    placeholder="Email" style="height: 45px;"></div>
+                            <div class="mb-3"><textarea class="form-control" id="message-2" name="message" rows="6"
+                                    placeholder="Message" style="height: 45px;"></textarea></div>
+                            <div><button id="submitbutton" class="btn btn-primary d-block w-100" type="submit">Send
+                                </button></div>
+                        </form>
+                    </div>
+                    <p id="results-1" style="padding-bottom: 250px;margin-top: 50px;margin-bottom:150px;">
+                        If you have downloaded and are running the server.py file as a Jupyter notebook,
+                        And if the website is run on the localhost,
+                        Then, the Results will be displayed here...
+                        It takes around 15 seconds...
+                        Otherwise, the results will be sent to you via email in a less than a week,
+                        Since I manually check the form submissions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer style="padding-bottom:100px;padding-top:200px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto" style="margin-left: 80px;margin-right: 80px;">
+                        <h2 style="text-align: left;">Contact us</h2>
+                        <p></p>
+                        <p
+                            style="text-align: center;font-size: 16.5px;padding: 0px;padding-right: 30px;padding-left: 30px;padding-bottom: 0px;">
+                            <br>This is a free community project, with the desire to make the analysis of the public's
+                            views very accessible for anyone, independent of code or algorithms knowledge. <br>Our
+                            purpose is to change the Code from the Barrier into the Bridge for people from different
+                            areas of live.<br><br>
+                        </p>
+                        <ul class="list-inline banner-social-buttons" style="text-align: center;">
+                            <li class="list-inline-item"><a href="https://github.com/Adurzada/TwitterSentiment">
+                                    &nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i
+                                            class="fa fa-google-plus fa-fw"></i><span class="network-name">&nbsp;
+                                            gmail</span></button></a></li>
+                            <li class="list-inline-item"><a
+                                    href="https://linkedin.com/in/latif-adurzada-874aa021a">&nbsp;<button
+                                        class="btn btn-primary btn-lg btn-default" type="button"><i
+                                            class="fa fa-twitter fa-fw"></i><span
+                                            class="network-name">&nbsp;LinkedIn</span></button></a></li>
+                            <li class="list-inline-item">&nbsp;<a
+                                    href="https://github.com/Adurzada/TwitterSentiment"><button
+                                        class="btn btn-primary btn-lg btn-default" type="button"><i
+                                            class="fa fa-github fa-fw"></i><span
+                                            class="network-name">&nbsp;github</span></button></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="bootstrap.min.js"></script>
+    <script src="grayscale.js"></script>
+    <script src="sendinginfo.js"></script>
+</body>
+
+</html>
