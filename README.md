@@ -30,6 +30,7 @@ This may take some time, but that is the best technology i can use for free.
 LOCAL START.
 To make it work on localhost:
 1. download all files, place in a folder.
+!!! YOU NEED APIS. EITHER CONTACT ME OR USE YOURS.
 2. Index.html, Contact.html - are main files of the website (press on Index.html or open in any browser to see the website)
 3. BEFORE SUBMITTING A QUERY:                                                                                                       !!!!!!
     Open Server.ipynb in Jupyter Notebook, and run the main cell (there is only one)
