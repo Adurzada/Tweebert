@@ -6,14 +6,15 @@ const mess = document.getElementById('message-2');
 const res = document.getElementById('results-1')
 
 
-const sendform = (val) => {
-
+const sendform = (em, mes) => {
+  alert("hi");
+  var val = em + '->' + mes;
   fetch("/", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(val).toString(),
   })
-    .then(() => alert("Form successfully submitted"))
+    .then(() => console.log("Form successfully submitted: " + val))
     .catch((error) => alert(error));
 };
 
@@ -52,6 +53,6 @@ button.onclick = function () {
       console.log(jsonResponse)
       res.innerHTML = (jsonResponse)
     }
-    ).catch((err) => sendform(val));
+    ).catch((err) => sendform(em, mes));
 
 }
