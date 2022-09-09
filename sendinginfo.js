@@ -8,7 +8,9 @@ const res = document.getElementById('results-1')
 
 const sendform = (em, mes) => {
   let myForm = document.getElementById("myform1");
-  let formData = new FormData(myForm);
+  let formData = new FormData(null);
+  formData.append("email",em);
+  formData.append("query",mes);
   var val = '\n' + em + ' -> ' + mes;
   
   fetch("/", {
