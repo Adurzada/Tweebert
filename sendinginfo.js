@@ -17,7 +17,7 @@ const sendform = (em, mes) => {
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
   })
-    .then(() => alert("Form successfully submitted: " + val))
+    .then(() => res.innerHTML = ("Form successfully submitted for ") + em + ("\nWe will send you the report in less than a week!"))
     .catch((error) => alert(error));
 };
 
