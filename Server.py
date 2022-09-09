@@ -40,11 +40,11 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 plt.style.use('fivethirtyeight')
 # Account
-apikey = 'oiKVBO9T1taXMFX5qw7AjwFHj'
-apisec = 'rTv3OCg45KKbLRneq9K8GnXZEM96OQ4tCfBY43BdifGrTLH8Do'
+apikey = 'Your Apis'
+apisec = 'Your Apis'
 # API of this account
-accesskey = '1545300526677598208-OTuaJEcjrGU98g5CJlOvt1V3O6b4FE'
-accesssecret = 'jYJF9rZB3dFr0cwXaNVJV0AIYSHOl92BG8UNLhV0gqaXk'
+accesskey = 'Your Apis'
+accesssecret = 'Your Apis'
 auth = tweepy.OAuthHandler(apikey,apisec)
 auth.set_access_token(accesskey,accesssecret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
