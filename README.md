@@ -23,7 +23,7 @@ Our purpose is to change the Code from the Barrier into the Bridge for people fr
 USAGE ---.
 
 
-ONLINE FORM SUBMITTION
+ONLINE FORM SUBMISSION
 Once you have submitted the form online, I will receive it immediately, and manually send you the report.
 This may take some time, but that is the best technology i can use for free.
 
